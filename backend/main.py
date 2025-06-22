@@ -19,4 +19,3 @@ from routers.retrieval import router as retrieval_router
 app = FastAPI()
 app.include_router(retrieval_router, prefix="/retrieval", tags=["retrieval"])
 app.include_router(index_router, prefix="/index", tags=["index"])
-app.include_router(index_router, prefix="/index", tags=["index"])
